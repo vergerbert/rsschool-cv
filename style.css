@@ -1,0 +1,427 @@
+body, html {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+position: absolute;
+width: 1240px;
+height: 1754px;
+font-family: 'Roboto Slab';
+font-style: normal;
+background: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.photo {
+  position: absolute;
+  top: 50px;
+  right: 477.5px;
+  width: 285px;
+  height: 285px;
+}
+
+.name {
+  position: absolute;
+  top: 335px;
+  right: 171px;
+  width: 898px;
+  height: 88px;
+
+  font-weight: 500;
+  font-size: 84px;
+  line-height: 111px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.horizontal1 {
+  position: absolute;
+  top: 520px;
+  width: 1040px;
+  height: 2.5px;
+}
+
+.phonenumber {
+  position: absolute;
+  top: 520px;
+  width: 347px;
+  height: 98px;
+
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.vertical1 {
+  position: absolute;
+  top: 530px;
+  left: 420px;
+  width: 2.5px;
+  height: 78px;
+}
+
+.email {
+  position: absolute;
+  top: 520px;
+  right: 425px;
+  width: 347px;
+  height: 98px;
+
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  color: #202020;
+}
+
+.vertical2 {
+  position: absolute;
+  top: 530px;
+  right: 430px;
+  width: 2.5px;
+  height: 78px;
+}
+
+.location {
+  position: absolute;
+  top: 520px;
+  right: -45px;
+  width: 347px;
+  height: 98px;
+
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #202020;
+}
+
+.horizontal2 {
+  position: absolute;
+  top: 620px;
+  width: 1040px;
+  height: 2.5px;
+}
+
+.social-media {
+  position: absolute;
+  top: 627px;
+  left: 100px;
+  width: 347px;
+  height: 20px;
+
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-telegram {
+  position: absolute;
+  top: 695px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.telegram {
+  position: absolute;
+  top: 695px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #202020;
+}
+
+.icon-discord {
+  position: absolute;
+  top: 750px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.discord {
+  position: absolute;
+  top: 750px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #202020;
+}
+
+.icon-github {
+  position: absolute;
+  top: 805px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.github {
+  position: absolute;
+  top: 805px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #202020;
+}
+
+.about-me {
+  position: absolute;
+  top: 627px;
+  left: 465px;
+  width: 668px;
+  height: 20px;
+
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.text-about-me {
+  position: absolute;
+  top: 675px;
+  left: 465px;
+  width: 668px;
+  height: 155px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.horizontal3 {
+  position: absolute;
+  top: 880px;
+  width: 1040px;
+  height: 2.5px;
+}
+
+.working-skills {
+  position: absolute;
+  top: 890px;
+  width: 347px;
+  height: 20px;
+
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-html5 {
+  position: absolute;
+  top: 960px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.html5 {
+  position: absolute;
+  top: 960px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-css3 {
+  position: absolute;
+  top: 1025px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.css3 {
+  position: absolute;
+  top: 1025px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-javascript {
+  position: absolute;
+  top: 1090px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.javascript {
+  position: absolute;
+  top: 1090px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-typescript {
+  position: absolute;
+  top: 1155px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.typescript {
+  position: absolute;
+  top: 1155px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-react {
+  position: absolute;
+  top: 1220px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.react {
+  position: absolute;
+  top: 1220px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.icon-english {
+  position: absolute;
+  top: 1285px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+}
+
+.english {
+  position: absolute;
+  top: 1285px;
+  left: 160px;
+  width: 275px;
+  height: 45px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.code-example {
+  position: absolute;
+  top: 890px;
+  left: 465px;
+  width: 668px;
+  height: 20px;
+
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.code {
+  position: absolute;
+  top: 960px;
+  left: 465px;
+  width: 668px;
+  height: 155px;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+}
