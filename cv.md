@@ -18,3 +18,39 @@ and a desire to understand concepts fundamentally rather than superficially.
 
 ## Skills  
 Currently learning: **JavaScript, HTML5, CSS3, React, Git**  
+
+---
+
+## Code Example  
+```js
+const calculateRoots = (a, b, c) => {
+  const 
+    discriminant = b ** 2 - 4 * a * c,
+    root = -b / (2 * a),
+    first = (-b + Math.sqrt(discriminant)) / (2 * a),
+    second = (-b - Math.sqrt(discriminant)) / (2 * a);
+
+  if (discriminant < 0) {
+    return 'No roots';
+  } else if (discriminant === 0) {
+    return 'The root is ' + root;
+  } else if (discriminant > 0) {
+    return 'The first root is ' + first + ', the second root is ' + second;
+  }
+}
+```  
+
+---
+
+## Work Experience  
+No commercial experience  
+
+---
+
+## Education  
+Incomplete higher education, Economics  
+
+---
+
+## English  
+B1  
